@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display');
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+.ba-page {
+	margin: 130px auto;
+	max-width: 1400px;
+	background: #FFF;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+}
+.ba-footer a {
+	text-decoration: none;
+}
+.ba-container {
+	font-family: Lato, Arial, sans-serif;
+	color:  #171717;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 34px;
+	padding: 140px 123px;
+}
+.ba-header {
+	font-family: 'Playfair Display', Georgia, serif;
+	color:  #171717;
+	font-size: 42px;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 39px;
+}
+.ba-quote .ba-article {
+	font-style: italic;
+	font-size: 24px;
+}
+.ba-quote p::before {
+	content:"“";
+	font-style: italic;
+	font-family: Lato, Arial, sans-serif;
+	margin: 0 20px;
+	font-size: 40px;
+}
+.ba-article-first:first-letter {
+	font-size: 110px;
+	font-family: 'Playfair Display', Georgia, serif;
+	float: left;
+	margin: 30px 20px 30px 0;
+}
+.ba-button {
+	padding: 20px 80px;
+	color: rgb(234, 162, 88);
+	border: 3px solid rgb(234, 162, 88);
+	background: #fff;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 18px;
+	font-weight: 700;
+	outline: none;
+	margin-top: 20px;
+}
+.ba-button:hover {
+	background: rgb(234, 162, 88);
+	color: #fff;
+}
